@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #fc5c7d, #6a82fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 400px;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666666;
+  }
+
+  .input-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #999999;
+  }
+
+  .input-field input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    padding-left: 40px;
+  }
+
+  .input-field input:focus {
+    outline: none;
+  }
+
+  .input-field input[type="submit"] {
+    background-color: #6a82fb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .input-field input[type="submit"]:hover {
+    background-color: #4e64e2;
+  }
+
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    color: #666666;
+  }
+
+  .login-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color:#fc5c7d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 130px;;
+  }
+  
+  .login-button:hover {
+    background-color: #6a82fb;
+  }
